@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Experiment</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body onload="document.FreeRecall.response.focus()">
+
+<center><table width="500"><TR><Td>
+<br><br>
+
+<center>
+
+<form name="FreeRecall" action="soFreeRecallData.php" autocomplete="off" method="post">
+	<p>Please type in the names of as many countries as you can think of. You have five minutes. 
+	
+	<textarea rows="20" cols="60" name="response" wrap="physical"></textarea>
+	<br>
+	<br>
+<!-- These lines can be substituted for the javascript below if you want the test to be user-timed. 
+	<p>Press the button below when you are SURE you're done. 
+	<p><input type="submit" value="That's All I Can Remember">
+ -->
+
+</form>
+
+</center>
+
+<script type="text/javascript">
+	var t=setTimeout("document.FreeRecall.submit()",300*1000); // Post form above after specified # of milliseconds.
+</script>
+
+
+<!--
+The javascript above posts the form above after the number of milliseconds you specify. The same thing happens on computer-timed test trials (see test.php). I could have accomplished this using <meta http-equiv="refresh" content="300; url='feedback.php'"> but it wouldn't record the data that way (i.e., it wouldn't post anything). 
+-->
+
+
+</td></tr></table></center>
+
+</body>
+</html>

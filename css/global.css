@@ -1,0 +1,54 @@
+.leftPanel {
+	float:left;
+	width:77%;
+	max-width: 1800px;
+	margin: 0px;
+	padding: 0px;
+	display:block;
+	margin-top: 20px;
+}
+.fullW {
+	width: 100%;
+}
+
+
+.rightPanel {
+	font-family: sans-serif;
+	font-weight: bold;
+	display:block;
+	float:right;
+	width: 20%;
+	margin-right: 2%;
+	margin-left: 1%;
+	font-size: 1.3em;
+	margin-top: 20px;
+}
+	.pLink {
+		text-align:center;
+		margin-bottom: 30px;
+		display:block;
+		color: #1d579e;
+	}
+	.contact {
+		text-align: center;
+		margin-top: 75px;
+		display: block;
+	}
+	.email {
+		text-align: center;
+		margin: 10px 0px 20px 0px;
+		display: block;
+		color: #1d579e;
+	}
+	.rightPanel p {
+		margin-top: 120px;
+		font-size: .7em;
+		font-weight:lighter;
+		color: #999999;
+		text-align: right;
+	}
+
+p a {
+	color: #999999;
+	font-weight: bold;
+}

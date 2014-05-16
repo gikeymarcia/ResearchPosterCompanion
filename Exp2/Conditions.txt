@@ -1,0 +1,2 @@
+Number	Stimuli	Order	Condition Description	Condition Notes
+1	Words/Words1.txt	Orders/Order1.txt	study/pre-test but with 50% pre-test is right	nothing needed here
