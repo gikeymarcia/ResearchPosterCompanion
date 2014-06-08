@@ -28,7 +28,7 @@
                 #### Pluralize 'Contact the Author'?
                 $count = count($contactAuthors);                // how many people am I giving info for?
                 $plural = '';                                   // don't add an 's' to 'Contact the Author'
-                if ($count > 0) { $plural = 's'; }              // unless there is more than 1 author
+                if ($count > 1) { $plural = 's'; }              // unless there is more than 1 author
             ?>
             
             <span class="contact">Contact the author<?php echo $plural ?>:</span>
