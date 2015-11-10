@@ -5,6 +5,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link href="css/global.css" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title><?php echo htmlspecialchars($title); ?></title>
     </head>
     
@@ -42,7 +43,7 @@
             if($creditCollector == TRUE) {
                 ?>
                 <p>Experiments created with <b>Collector</b> (a free and open-source solution designed for running psychology experiments on the web)
-                <br /><br /> Get it <a href="https://github.com/gikeymarcia/Collector" target="_blank">here.</a>            
+                <br /><br /> Get it <a href="https://github.com/gikeymarcia/Collector/tree/dev" target="_blank">here.</a>            
                 </p>
                 <?php
             }

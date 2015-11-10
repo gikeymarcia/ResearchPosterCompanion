@@ -10,8 +10,8 @@
                             'Exp/',
                             'Exp2/',
                             );
-    $creditCollector = TRUE;                // if you made the experiment with collector you can set this to 'TRUE' to spread the love
-    
+    $creditCollector = true;                // if you made the experiment with collector you can set this to 'TRUE' to spread the love
+    $promotePosterPg = true;                // whether or not to show a link to the poster pages site
     /*
      * Notes: When you make the image of your poster a width of ~1700px seems to work well.
      *        The page will resize most images to fit
